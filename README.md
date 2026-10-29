@@ -1,5 +1,6 @@
    # Ln04's GMod Addons
-   Addons I've made while learning GLua (started 12 Sept 2026).
+   These are addons I have created since first learning glua.<br>
+   This repository will be **updated** as progress continues to be made.
 
    - Death & kill counter
    - !8ball
