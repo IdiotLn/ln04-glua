@@ -11,3 +11,10 @@ hook.Add("PlayerSpawn", "ln04_playerSpawn", function(ply)
         end
     end)
 end)
+
+hook.Add("PlayerLoadout", "ln04_loadout", function(ply)
+    ply:Give("weapon_physgun")
+    ply:Give("gmod_tool")
+
+    return true
+end)

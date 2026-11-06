@@ -13,7 +13,7 @@ hook.Add("HUDPaint", "spawnProtHud", function()
 
         surface.SetDrawColor(0,0,0,180)
         surface.DrawRect(scrw * .5 - (boxw * .5), scrh * .95 - (boxh * .5), boxw, boxh)
-        draw.SimpleText("SPAWN PROTECTION: " .. timeLeft .. "s", "DermaLarge", scrw * .5, scrh * .95, Color(200,200,0, textAlpha), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+        draw.SimpleText("SPAWN PROTECTION: " .. timeLeft .. "s", "DermaLarge", scrw * .5, scrh * .95, Color(255,255,255, textAlpha), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
     end
 
 end)
